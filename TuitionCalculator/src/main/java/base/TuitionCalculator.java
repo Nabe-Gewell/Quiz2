@@ -39,8 +39,8 @@ public class TuitionCalculator
 	
 	monthlyPayment = calculateMonthlyPayments(repaymentAPR,repaymentTerm,tuitionCost);
 	
-	System.out.printf("Total tuition cost: $%.2f .Monthly payment at the "
-			+ "when graduating will be $%.2f", tuitionCost, monthlyPayment);
+	System.out.printf("Total tuition cost: $%.2f. Monthly payment at the end,"
+			+ " when graduating will be $%.2f", tuitionCost, monthlyPayment);
 	}
 
 	public static double calculateTotalTuition(double initialCost, double percentageIncrease) 
